@@ -1,5 +1,10 @@
 ﻿import React from "react";
 import logo from "./assets/brand/logo-forno-di-napoli.png";
+import quemSomosImg from "./assets/pizzas/quem-somos.png";
+import menuPrimaryImg from "./assets/pizzas/menu-primary.png";
+import menuSecondaryImg from "./assets/pizzas/menu-secondary.png";
+
+
 
 
 
@@ -148,7 +153,7 @@ export default function App() {
 
         {/* Quem Somos */}
         <section id="quem-somos" className="section about">
-          <div className="container about-grid">
+          <div className="container about-inner">
             <div className="about-text">
               <h2>Quem Somos</h2>
               <p>
@@ -165,8 +170,9 @@ export default function App() {
             </div>
             <div className="about-image">
               <img
-                src="https://images.unsplash.com/photo-1601924582971-cf3ecb8a5b76?auto=format&fit=crop&w=900&q=80"
+                src={quemSomosImg}
                 alt="Pizzaiolo retirando pizza do forno a lenha"
+                loading="lazy"
               />
             </div>
           </div>
@@ -184,16 +190,19 @@ export default function App() {
             </div>
 
             <div className="menu-visual">
-              <img
-                src="https://images.unsplash.com/photo-1548365328-5bdbb2b4f70e?auto=format&fit=crop&w=700&q=80"
-                alt="Pizza artesanal com borda alta"
-                className="menu-image primary"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
-                alt="Pizza com ingredientes frescos"
-                className="menu-image secondary"
-              />
+                <img
+                  src={menuPrimaryImg}
+                  alt="Pizza artesanal assando no forno a lenha"
+                  className="menu-image primary"
+                  loading="lazy"
+                />
+                <img
+                  src={menuSecondaryImg}
+                  alt="Pizza italiana com ingredientes frescos"
+                  className="menu-image secondary"
+                  loading="lazy"
+                />
+
             </div>
 
             <div className="menu-grid">
