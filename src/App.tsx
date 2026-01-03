@@ -1,4 +1,7 @@
 ﻿import React from "react";
+import logo from "./assets/brand/logo-forno-di-napoli.png";
+
+
 
 const menuItems = [
   {
@@ -111,10 +114,11 @@ export default function App() {
         <div className="container header-inner">
           <a className="brand" href="#inicio" aria-label="Forno di Napoli">
             <img
-              src="/assets/logo-forno-di-napoli.png"
-              alt="Forno di Napoli"
-              className="logo"
-            />
+                src={logo}
+                alt="Forno di Napoli"
+                className="logo"
+              />
+
           </a>
           <nav className="nav" aria-label="Navegacao principal">
             <a href="#inicio">Inicio</a>

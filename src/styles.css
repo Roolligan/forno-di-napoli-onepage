@@ -21,7 +21,7 @@ body {
   margin: 0;
   font-family: "Cormorant Garamond", "Times New Roman", serif;
   background: radial-gradient(circle at top, #fbf4ea 0%, #f1e4d3 45%, #e5d4c2 100%);
-  color: var(--dark-brown);
+  color: #000000;
 }
 
 img {
@@ -73,14 +73,24 @@ h3 {
 }
 
 .logo {
-  height: 46px;
+  height: 170px;
+  width: auto;
+  display: block;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
 }
 
 .nav {
   display: flex;
   gap: 22px;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   letter-spacing: 0.02em;
+  color: #e5d4c2;
 }
 
 .nav a {
@@ -111,7 +121,7 @@ h3 {
   display: flex;
   align-items: center;
   color: var(--soft-white);
-  background-image: url("https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=1600&q=80");
+  background-image: url("./assets/pizzas/hero-pizza.png");
   background-size: cover;
   background-position: center;
 }
@@ -132,17 +142,17 @@ h3 {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .hero h1 {
-  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-size: clamp(2.9rem, 6vw, 5rem);
   letter-spacing: 0.04em;
   margin-bottom: 12px;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   max-width: 640px;
   margin: 0 auto 32px;
 }
