@@ -1,0 +1,46 @@
+# 🍕 Forno di Napoli — Landing Page
+
+Landing page institucional para uma pizzaria de estilo italiano tradicional, desenvolvida com foco em identidade visual, apresentação do cardápio e experiência do usuário.
+
+🔗 **Demo online:**  
+https://forno-di-napoli-onepage-36ntu5umv-roolligans-projects.vercel.app/
+
+---
+
+## ✨ Funcionalidades
+
+- Hero com imagem full background e overlay
+- Header fixo com navegação suave
+- Seção **Quem Somos** com imagem institucional
+- Cardápio com destaque visual (imagens sobrepostas)
+- Lista de pizzas em duas colunas
+- Layout totalmente responsivo
+- Deploy automático com Vercel
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **React**
+- **Vite**
+- **TypeScript**
+- **CSS puro**
+- **Git & GitHub**
+- **Vercel**
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+```bash
+# Clonar o repositório
+git clone https://github.com/Roolligan/forno-di-napoli-onepage.git
+
+# Entrar na pasta do projeto
+cd forno-di-napoli-onepage
+
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
+npm run dev
